@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    background-color: aqua;
+    font-family: 'Inter', sans-serif;
+    background-image: url("https://www.mintlify.com/hero/bg-light.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header-container {
+    height: 65px;
+    width: 80%;
+    margin: 0;
+    padding: 16px 24px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.nav-bar {
+    height: 36px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+
+.list-item, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.a-btn {
+    display: flex;
+    gap: 5px;
+}
+
+.btn {
+    padding: 4.5px 12px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+#wordmark {
+    height: 24px;
+}
+
+.a-2 {
+    padding: 4px 12px;
+}
+
+.h1-heading-container {
+    height: 403px;
+    padding: 104px 0 96px;
+    display: block;
+    flex-direction: row;
+}
+
+#h1-heading {
+    color: #fff;
+    display: block;
+    margin: 0;
+    padding-right: 30%;
+    padding-left: 30%;
+    text-align: center;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+#para-desc {
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 33%;
+    padding-right: 33%;
+    margin: 24px 0 0;
+}
+
+.form-container {
+    height: 43px;
+    width: 344px;
+    border: 2px solid #6CAFAC;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 32px 0 0 35%;
+    padding: 2px;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+#input-form {
+    display: grid;
+    gap: 45px;
+    align-items: center;
+}
+
+#mail-input {
+    height: 32px;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin-right: 40px;
+}
+
+#start-btn {
+    padding: 4.5px 12px;
+    border-radius: 25px;
+}
