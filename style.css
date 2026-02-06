@@ -3,13 +3,13 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     padding: 0;
-    background-color: aqua;
+    background-color: #fff;
     font-family: 'Inter', sans-serif;
     background-image: url("https://www.mintlify.com/hero/bg-light.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    height: 900px;
 }
 
 .header-container {
@@ -131,6 +131,73 @@ body {
 }
 
 #start-btn {
+    height: 33px;
+    width: 94px;
     padding: 4.5px 12px;
     border-radius: 25px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+#quick-start-img {
+    width: 1000px;
+}
+
+.logo-container {
+    padding: 72px 32px 25px;
+}
+
+#logo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    align-items: center; 
+}
+
+.logo-item {
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px; 
+}
+
+.logo-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+}
+
+#text-container {
+    height: 204px;
+    padding: 48px 32px;
+}
+
+.text-content {
+    display: block;
+    text-align: center;
+}
+
+#heading-h2 {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+    color: #08090a;
+}
+
+#para-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #08090acc;
+    padding-left: 25%;
+    padding-right: 25%;
 }
