@@ -201,3 +201,83 @@ body {
     padding-left: 25%;
     padding-right: 25%;
 }
+
+.card-container {
+    margin: 0;
+    padding: 0;
+}
+
+.llm-cards {
+    height: 535px;
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.llm-text-content {
+    padding: 24px;
+}
+
+#llm {
+    border: 2px solid #EEEEEE;
+    border-radius: 20px;
+}
+
+#agent {
+    border: 2px solid #EEEEEE;
+    border-radius: 20px;
+}
+
+#topmost-llm {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #0c8c5e;
+}
+
+.llm-img {
+    height: 250px;
+    width: 500px;
+}
+
+.heading-h3 {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 500;
+    color: #08090a;
+}
+
+.desc-llm {
+    color: #08090acc;
+    padding-right: 25%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}   
+
+video {
+    outline: none;       
+    border: none;        
+    box-shadow: none;    
+    display: block;
+}
+
+.assitant-container {
+    margin-top: 40px;
+    border: 2px solid #EEEEEE;
+    border-radius: 20px;
+    height: 665px;
+}
+
+.assitant-text-content {
+    margin: 6px 6px 0;
+    padding: 48px 32px;
+    display: block;
+    text-align: center;
+}
+
+.desc-ass {
+    padding-right: 27%;
+    padding-left: 30%;
+}
